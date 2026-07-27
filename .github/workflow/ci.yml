@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Demo</title>
+</head>
+<body>
+    <h1>Welcome to My GitHub Repository</h1>
+    <p>This is a dummy HTML project.</p>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+p {
+    color: #555;
+}
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("GitHub"));
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Page Loaded Successfully!");
+});
